@@ -1,0 +1,35 @@
+/* # Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px */
+
+:root {
+  /* ## Colors */
+  /* ### Primary */
+
+  --clr-primary-soft-blue: hsl(215, 51%, 70%);
+  --clr-primary-cyan: hsl(178, 100%, 50%);
+
+  /* ### Neutral */
+  --dark-blue-main-BG: hsl(217, 54%, 11%);
+  --dark-blue-main-card-BG: hsl(216, 50%, 16%);
+  --dark-blue-line: hsl(215, 32%, 27%);
+  --neutral-100: hsl(0, 0%, 100%);
+
+  /* ## Typography
+    
+    ### Body Copy */
+
+  --fs-paragraph: 18px;
+
+  /* ### Font */
+
+  --ff-base: 'Outfit', sans-serif;
+  --fw-light: 300;
+  --fw-regular: 400;
+  --fw-bold: 600;
+}
