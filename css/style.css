@@ -33,3 +33,97 @@ The designs were created to the following widths:
   --fw-regular: 400;
   --fw-bold: 600;
 }
+
+* {
+  font-size: var(--fs-paragraph);
+}
+
+body {
+  font-family: var(--ff-base);
+  color: var(--neutral-100);
+  background-color: var(--dark-blue-main-BG);
+}
+
+.flex {
+  display: flex;
+}
+
+.fd-c {
+  flex-direction: column;
+}
+
+.wrapper {
+  height: 100%;
+
+  justify-content: center;
+  align-items: center;
+
+  padding: 1.25rem;
+}
+
+/* card */
+
+.card {
+  height: max-content;
+  background-color: var(--dark-blue-main-card-BG);
+  border-radius: 0.5rem;
+  gap: 1rem;
+
+  padding: 1.25rem;
+}
+
+.card img {
+  border-radius: 0.5rem;
+}
+
+.card h1 {
+  font-size: 1.25rem;
+}
+
+.card p {
+  font-weight: var(--fw-light);
+  color: var(--clr-primary-soft-blue);
+}
+
+/* eth & days */
+
+.eth-days {
+  justify-content: space-between;
+}
+
+.eth,
+.days {
+  gap: 0.5rem;
+
+  align-items: center;
+  color: var(--clr-primary-cyan);
+}
+
+.days {
+  color: var(--clr-primary-soft-blue);
+}
+
+/* creation */
+
+.creation {
+  align-items: center;
+  gap: 1rem;
+
+  padding-top: 1rem;
+  border-top: 1px solid var(--dark-blue-line);
+}
+
+.creation h6 > span {
+  color: var(--clr-primary-soft-blue);
+}
+
+.creation img {
+  border-radius: 50%;
+  border: 1px solid white;
+
+  height: 2rem;
+}
+
+.creation h6 {
+  font-weight: var(--fw-light);
+}

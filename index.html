@@ -12,9 +12,9 @@
       href="./images/favicon-32x32.png"
     />
 
-    <link rel="stylesheet" href="css/style.css" />
-
     <link rel="stylesheet" href="css/reset.css" />
+
+    <link rel="stylesheet" href="css/style.css" />
 
     <!-- font styles -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -38,23 +38,36 @@
     </style>
   </head>
   <body>
-    <section>
-      <h1>Equilibrium #3429</h1>
+    <div class="wrapper flex fd-c">
+      <section class="card flex fd-c">
+        <img src="images/image-equilibrium.jpg" alt="" />
+        <h1>Equilibrium #3429</h1>
 
-      <p>Our Equilibrium collection promotes balance and calm.</p>
-      <div>
-        <span>0.041 ETH</span>
-        <span>3 days left</span>
+        <p>Our Equilibrium collection promotes balance and calm.</p>
+        <div class="eth-days flex">
+          <div class="eth flex">
+            <img src="images/icon-ethereum.svg" alt="ETH Icon" />
+            <span>0.041 ETH</span>
+          </div>
+          <div class="days flex">
+            <img src="images/icon-clock.svg" alt="Clock Icon" />
+            <span>3 days left</span>
+          </div>
+        </div>
+
+        <div class="creation flex">
+          <img src="images/image-avatar.png" alt="Creator Avatar" />
+          <h6><span>Creation of</span> Jules Wyvern</h6>
+        </div>
+      </section>
+
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by
+        <a href="https://github.com/bkpecho" target="_blank">BK Pecho</a>.
       </div>
-
-      <h6>Creation of Jules Wyvern</h6>
-    </section>
-
-    <div class="attribution">
-      Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-        >Frontend Mentor</a
-      >. Coded by <a href="#">Your Name Here</a>.
     </div>
   </body>
 </html>
