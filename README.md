@@ -49,10 +49,9 @@ Deeper understanding of hover effects: This project also allowed me to delve dee
 
 By working on this project, I was able to strengthen my existing skills and gain new knowledge, which will be valuable as I continue to develop my abilities as a frontend developer.
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
 
 ## Author
 
-- Website - [BK Pecho](https://www.github.com/bkpecho)
+- Github - [BK Pecho](https://www.github.com/bkpecho)
 - Frontend Mentor - [@bkpecho](https://www.frontendmentor.io/profile/bkpecho)
 - Twitter - [@bkpecho](https://www.twitter.com/bkpecho)
