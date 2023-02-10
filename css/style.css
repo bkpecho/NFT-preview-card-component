@@ -54,9 +54,7 @@ body {
   flex-direction: column;
 }
 
-.wrapper {
-  height: 100%;
-
+main {
   justify-content: center;
   align-items: center;
   align-self: center;
@@ -65,13 +63,11 @@ body {
   gap: 1.5rem;
 
   max-width: 375px;
-  min-width: 375px;
 }
 
 /* card */
 
 .card {
-  height: max-content;
   background-color: var(--dark-blue-main-card-BG);
   border-radius: 0.75rem;
   gap: 1rem;
