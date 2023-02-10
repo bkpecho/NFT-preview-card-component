@@ -37,10 +37,14 @@
       }
     </style>
   </head>
-  <body>
+  <body class="flex fd-c">
     <div class="wrapper flex fd-c">
       <section class="card flex fd-c">
-        <img src="images/image-equilibrium.jpg" alt="" />
+        <div class="img-container flex">
+          <img class="img-main" src="images/image-equilibrium.jpg" alt="" />
+          <div class="img-bg"></div>
+          <img class="img-hover" src="images/icon-view.svg" alt="" />
+        </div>
         <h1>Equilibrium #3429</h1>
 
         <p>Our Equilibrium collection promotes balance and calm.</p>
@@ -57,7 +61,9 @@
 
         <div class="creation flex">
           <img src="images/image-avatar.png" alt="Creator Avatar" />
-          <h6><span>Creation of</span> Jules Wyvern</h6>
+          <h6>
+            <span>Creation of</span> <span class="author">Jules Wyvern</span>
+          </h6>
         </div>
       </section>
 
@@ -65,7 +71,7 @@
         Challenge by
         <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
           >Frontend Mentor</a
-        >. Coded by
+        >. <br />Coded by
         <a href="https://github.com/bkpecho" target="_blank">BK Pecho</a>.
       </div>
     </div>

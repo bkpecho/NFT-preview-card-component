@@ -42,6 +42,8 @@ body {
   font-family: var(--ff-base);
   color: var(--neutral-100);
   background-color: var(--dark-blue-main-BG);
+
+  justify-content: center;
 }
 
 .flex {
@@ -57,8 +59,13 @@ body {
 
   justify-content: center;
   align-items: center;
+  align-self: center;
 
   padding: 1.25rem;
+  gap: 1.5rem;
+
+  max-width: 375px;
+  min-width: 375px;
 }
 
 /* card */
@@ -66,18 +73,64 @@ body {
 .card {
   height: max-content;
   background-color: var(--dark-blue-main-card-BG);
-  border-radius: 0.5rem;
+  border-radius: 0.75rem;
   gap: 1rem;
 
   padding: 1.25rem;
+
+  box-shadow: 0 0 2rem rgb(0, 0, 0);
 }
 
-.card img {
+.img-container {
+  position: relative;
+  justify-content: center;
+  align-items: center;
+
+  cursor: pointer;
+}
+
+.img-main {
   border-radius: 0.5rem;
+}
+
+.img-hover {
+  position: absolute;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.img-container:hover .img-hover {
+  opacity: 1;
+}
+
+.img-container:hover .img-bg {
+  opacity: 0.4;
+}
+
+.img-bg {
+  height: 100%;
+  width: 100%;
+  background-color: var(--clr-primary-cyan);
+  opacity: 0;
+  position: absolute;
+
+  border-radius: 0.5rem;
+  transition: opacity 0.3s ease-in-out;
 }
 
 .card h1 {
   font-size: 1.25rem;
+}
+
+.card h1,
+.author {
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.card h1:hover,
+.author:hover {
+  color: var(--clr-primary-cyan);
 }
 
 .card p {
@@ -113,7 +166,7 @@ body {
   border-top: 1px solid var(--dark-blue-line);
 }
 
-.creation h6 > span {
+.creation h6 > span:first-child {
   color: var(--clr-primary-soft-blue);
 }
 
