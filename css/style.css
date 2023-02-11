@@ -74,7 +74,7 @@ main {
 
   padding: 1.25rem;
 
-  box-shadow: 0 0 2rem rgb(0, 0, 0);
+  box-shadow: 0 0 1rem rgb(0, 0, 0);
 }
 
 .img-container {
@@ -162,7 +162,7 @@ main {
   border-top: 1px solid var(--dark-blue-line);
 }
 
-.creation h6 > span:first-child {
+.creation h2 > span:first-child {
   color: var(--clr-primary-soft-blue);
 }
 
@@ -173,6 +173,6 @@ main {
   height: 2rem;
 }
 
-.creation h6 {
+.creation h2 {
   font-weight: var(--fw-light);
 }
